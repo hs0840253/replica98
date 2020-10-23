@@ -182,6 +182,11 @@ p
   margin-left: 1230px;
 }
 
+#updatev
+{
+  
+}
+
 .list
 {
   position: absolute;
@@ -196,65 +201,20 @@ p
 
 
 
-#a1
-{margin-top: 215px;}
-#a2
-{margin-top: 273px;}
-#a3
-{margin-top: 328px;}
-#a4
-{margin-top: 383px;}
-#a5
-{margin-top: 438px;}
-#a6
-{margin-top: 493px;}
-#a7
-{margin-top: 548px;}
-
-#b1
-{margin-top: 215px;}
-#b2
-{margin-top: 273px;}
-#b3
-{margin-top: 328px;}
-#b4
-{margin-top: 383px;}
-#b5
-{margin-top: 438px;}
-#b6
-{margin-top: 493px;}
+#a1, #b1, #c1, #d1
+{margin-top: 15%;}
+#a2, #b2, #c2, #d2
+{margin-top: 19%;}
+#a3, #b3, #c3, #d3
+{margin-top: 23%;}
+#a4, #b4, #c4, #d4
+{margin-top: 27%;}
+#a5, #b5, #c5, #d5
+{margin-top: 31%;}
+#a6, #b6, #c6, #d6
+{margin-top: 35%;}
 #b7
-{margin-top: 548px;}
-
-#c1
-{margin-top: 215px;}
-#c2
-{margin-top: 273px;}
-#c3
-{margin-top: 328px;}
-#c4
-{margin-top: 383px;}
-#c5
-{margin-top: 438px;}
-#c6
-{margin-top: 493px;}
-#c7
-{margin-top: 548px;}
-
-#d1
-{margin-top: 215px;}
-#d2
-{margin-top: 273px;}
-#d3
-{margin-top: 328px;}
-#d4
-{margin-top: 383px;}
-#d5
-{margin-top: 438px;}
-#d6
-{margin-top: 493px;}
-#d7
-{margin-top: 548px;}
+{margin-top: 39%}
 
 p:hover{
 opacity: 100%;
