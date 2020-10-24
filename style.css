@@ -1,0 +1,288 @@
+body
+{
+  background: black;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  
+}
+
+.page1
+{
+  width: 100%;
+  height : 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  margin-top: -1px;
+  margin-left: 1px;
+}
+
+
+/*-----유토피아 버튼-----*/
+.button
+{
+  position: absolute;
+  display: block;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 14px 43px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 19px;
+  font-color:white;
+  font-family:  'Staatliches', cursive;
+
+  margin-top: 37.8%;
+  margin-left: 9%;
+  cursor: pointer;
+}
+
+.buttonnext
+{
+  background-color: black; 
+  color: white; 
+  border: 2px solid white;
+  letter-spacing: 1px;
+}
+
+
+/*-----동그란 버튼-----*/
+.wrapper 
+{
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 9%;
+  
+  width: 280px;
+  text-align: center;
+  display: flex;
+  
+  
+}
+
+.round
+{
+  font-family: 'Staatliches', cursive;
+  z-index: 10;
+  position: relative;
+  
+  margin-right: 16px;
+  margin-top: 16px;
+  margin-left: 0px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  
+  text-align: center;
+
+  border: 2px solid white;
+  border-radius: 50%;
+  
+  color: white;
+
+  cursor: pointer;
+
+  background-color: black;
+}
+
+.wrapper .round .fa
+{
+	font-size: 30px;
+  font-color: black;
+  margin-bottom: 0;
+	
+}
+
+.round:hover 
+{
+  color: black;
+}
+
+.round::after 
+{
+  z-index: -1;
+  
+  content: "";
+  position: absolute !important;
+  top: 8.3px;
+  right: 7.6px;
+  
+  display: block;
+  width: 30px;
+  height: 30px;
+  
+  background-color: white;  
+  border-radius: 50%;
+  
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+  transition: all 0.3s ease;  
+}
+
+.round:hover::after 
+{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+
+/*-----백그라운드-----*/
+
+.backvideo
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-left: 12%;
+  display: none;
+}
+.backg
+{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0;
+  position: absolute;
+  display: block;
+}
+
+.backimg
+{
+  width: 100%;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0;
+  display: block;
+  
+}
+
+/*----글씨-----*/
+
+.word
+{
+  position: absolute;
+  color: white;
+
+}
+
+#title
+{
+  font-size: 50px;
+  margin-top: 5%;
+  margin-left: 9%;
+  font-family: 'Staatliches', cursive;
+
+}
+
+#titlesub
+{
+  font-size: 38px;
+  margin-top: 5.8%;
+  margin-left: 18.5%;
+  font-family: 'Staatliches', cursive;
+}
+
+#righttop
+{
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0px;
+  margin-top: 5.2%;
+  margin-left: 81.5%;
+}
+
+.list
+{
+  position: absolute;
+  color: white;
+  opacity: 45%;
+  font-family: 'Staatliches', cursive;
+  font-size: 19px;
+  margin-top: 17.3%;
+  padding: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+
+/*-----설명-----*/
+/*설명 타이틀*/
+
+.numbername
+{
+    position: absolute;
+   font-family: 'Staatliches', cursive;
+   color: white;
+   font-size: 85px;
+   display: none;
+   margin-top: 20%;
+   margin-left: 9%;
+   letter-spacing: 4px;
+   font-stretch: wider;
+}
+
+/*내용*/
+.numberex
+{
+  position: absolute;
+   font-family: 'Noto Sans KR', sans-serif;
+   color: white;
+   font-size: 17px;
+   
+   margin-left: 10.4%;
+   letter-spacing: 0.8px;
+  display: none;
+}
+
+#a11
+{}
+
+#a12, #a22, #a32, #a42, #a52, #a62, #b12, #b22, #b32, #b42, #b52, #b62, #b72, #c12, #c22, #c32, #c42, #c52, #c62, #d12
+{margin-top: 27.8%;
+font-weight: 500;
+color: white;
+opacity: 60%;}
+
+#a13, #a23, #a33, #a43, #a53, #a63, #b13, #b23, #b33, #b43, #b53, #b63, #b73, #c13, #c23, #c33, #c43, #c53, #c63, #d13
+{margin-top: 30%;
+font-weight: 100;
+color: gray;}
+
+
+
+/*-----숫자 번호 여백설정-----*/
+
+#a1, #b1, #c1, #d1
+{margin-left: 10.4%;}
+#a2, #b2, #c2, #d2
+{margin-left: 14.7%;}
+#a3, #b3, #c3, #d3
+{margin-left: 19.2%;}
+#a4, #b4, #c4, #d4
+{margin-left: 23.7%;}
+#a5, #b5, #c5, #d5
+{margin-left: 28.1%;}
+#a6, #b6, #c6, #d6
+{margin-left: 32.6%;}
+#b7
+{margin-left: 37%;}
+
+
+
+p:hover{
+opacity: 100%;
+}
+
